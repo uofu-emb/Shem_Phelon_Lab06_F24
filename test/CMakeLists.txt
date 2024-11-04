@@ -1,5 +1,13 @@
-add_executable(mytest test.c unity_config.c)
+# ________________________ Our additions ___________________________
+add_executable(test_schedule schedule.c)
 
+
+
+
+
+
+#_________________________ From the original template: _______________________
+add_executable(mytest test.c unity_config.c)
 target_link_libraries(mytest PRIVATE
   pico_stdlib
   pico_async_context_freertos

@@ -1,5 +1,5 @@
 #include <stdio.h>
-// #include <pico/stdlib.h> TODO: Not sure where the hell this thing is.
+#include <stdlib.h> // TODO: I copied this folder from the directory: ./lib/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h
 #include <stdint.h>
 #include <unity.h>
 #include "unity_config.h"
@@ -13,7 +13,7 @@ void setUp(void) {}
 
 /*
     Just print a message for the teardown
-    TODO: the solution prints status.
+    TODO: the solution prints a status.
 */
 void tearDown(void) {
     printf("Tearing down!");
@@ -54,12 +54,8 @@ void SupervisorToThem() {
 
 
 
+// TODO: Helper
 
-void HelperToSetupAndTeardownThreads(
-
-) {
-
-}
 
 
 // _________________________________________________ Activity 1 ___________________________________________________

@@ -1,3 +1,7 @@
+Work is done in the src/schedule.c and test/test_schedule.c files.
+
+
+
 # Renode setup
 The Raspberry Pico needs configuration files for Renode to work properly.
 
